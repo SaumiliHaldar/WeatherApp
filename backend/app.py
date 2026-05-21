@@ -70,7 +70,7 @@ async def get_weather(
             "precipitation_probability", "precipitation", "weather_code",
             "cloud_cover", "wind_speed_10m", "wind_direction_10m",
             "uv_index", "visibility", "dew_point_2m", "surface_pressure",
-            "is_day",
+            "is_day", "direct_normal_irradiance", "shortwave_radiation", "diffuse_radiation",  
         ]),
         "daily": ",".join([
             "weather_code", "temperature_2m_max", "temperature_2m_min",
